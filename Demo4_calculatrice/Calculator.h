@@ -1,5 +1,5 @@
-#ifndef CALCULATOR.H
-#define CALCULATOR.H
+#ifndef CALCULATOR_H
+#define CALCULATOR_H
 
 class Calculator
 {
