@@ -34,3 +34,11 @@ void test_tolerance(double attendu, double obtenu, const std::string& nom_test) 
         tests_echoues++;
     }
 }
+
+void tester_multiplication() {
+    std::cout << "\n=== Tests : Multiplication ===\n";
+    Calculatrice calc;
+    test_tolerance(15.0, calc.multiplier(3.0, 5.0), "Multiplication de deux nombres positifs");
+    test_tolerance(-15.0, calc.multiplier(3.0, -5.0), "Multiplication avec un nombre négatif");
+    test_tolerance(0.0, calc.multiplier(5.0, 0.0), "Multiplication par zero");
+}
