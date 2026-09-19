@@ -1,5 +1,5 @@
-#ifndef CALCULATOR_H
-#define CALCULATOR_H
+#ifndef CALCULATOR.H
+#define CALCULATOR.H
 class Calculator{
     public:
     //constructeur 
