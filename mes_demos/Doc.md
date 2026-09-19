@@ -13,5 +13,6 @@ Ce dépôt est un espace d'expérimentation temporaire pour pratiquer les comman
 - Voir l'état du dépôt : `git status`
 - Voir le graphe des commits : `git log --graph --oneline --all`
 - Changer de branche : `git checkout <nom-de-branche>`
+note importante pour le travail en parallele
 
 ```
