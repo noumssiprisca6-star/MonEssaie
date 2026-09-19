@@ -1,4 +1,4 @@
-#ifndef CALCULATO.H
+#ifndef CALCULATOR.H
 #define CALCULATOR.H
 class Calculator{
     public:
