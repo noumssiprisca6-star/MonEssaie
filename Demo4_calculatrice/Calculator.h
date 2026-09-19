@@ -1,15 +1,14 @@
-#ifndef CALCULATOR.H
+#ifndef CALCULATO.H
 #define CALCULATOR.H
-
-class Calculator
-{
-public:
-//constructeur 
+class Calculator{
+    public:
+    //constructeur 
     Calculator();
-    //Destructeur 
+    //Destructeur
     ~Calculator();
     //Methodes
-    int Addition (int x, int y);
-    double Division(double a ,double b);
+    int Addition (int a , int b);
+    double Division (double x , double y); 
 };
+
 #endif
