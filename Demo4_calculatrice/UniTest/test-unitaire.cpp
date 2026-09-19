@@ -42,3 +42,10 @@ void tester_multiplication() {
     test_tolerance(-15.0, calc.multiplier(3.0, -5.0), "Multiplication avec un nombre négatif");
     test_tolerance(0.0, calc.multiplier(5.0, 0.0), "Multiplication par zero");
 }
+
+void tester_division() {
+    std::cout << "\n--- Tests : Division ---\n";
+    Calculatrice calc;
+    test_tolerance(2.5, calc.diviser(5.0, 2.0), "Division reelle ");
+    test_tolerance(-2.0, calc.diviser(6.0, -3.0), "Division avec un nombre négatif");
+}
