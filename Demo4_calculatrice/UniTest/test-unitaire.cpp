@@ -56,3 +56,10 @@ void tester_addition() {
     test_tolerance(0.0, calc.Addition(5, -5), "Addition avec un nombre negatif");
     test_tolerance(-8.0, calc.Addition(-3, -5), "Addition de deux nombres negatifs");
 }
+void tester_soustraction() {
+    std::cout << "\n--- Tests : Soustraction ---\n";
+    Calculator calc;
+    test_tolerance(2.0, calc.Soustraction(5, 3), "Soustraction de deux nombres positifs");
+    test_tolerance(8.0, calc.Soustraction(3, -5), "Soustraction avec un nombre negatif");
+    test_tolerance(-2.0, calc.Soustraction(-5, -3), "Soustraction de deux nombres negatifs");
+}
