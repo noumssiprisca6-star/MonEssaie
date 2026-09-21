@@ -37,15 +37,15 @@ void test_tolerance(double attendu, double obtenu, const std::string& nom_test) 
 
 void tester_multiplication() {
     std::cout << "\n=== Tests : Multiplication ===\n";
-    Calculatrice calc;
-    test_tolerance(15.0, calc.multiplier(3.0, 5.0), "Multiplication de deux nombres positifs");
-    test_tolerance(-15.0, calc.multiplier(3.0, -5.0), "Multiplication avec un nombre négatif");
-    test_tolerance(0.0, calc.multiplier(5.0, 0.0), "Multiplication par zero");
+    Calculator calc;
+    test_tolerance(15.0, calc.Multiplication(3.0, 5.0), "Multiplication de deux nombres positifs");
+    test_tolerance(-15.0, calc.Multiplication(3.0, -5.0), "Multiplication avec un nombre négatif");
+    test_tolerance(0.0, calc.Multiplication(5.0, 0.0), "Multiplication par zero");
 }
 
 void tester_division() {
     std::cout << "\n--- Tests : Division ---\n";
-    Calculatrice calc;
-    test_tolerance(2.5, calc.diviser(5.0, 2.0), "Division reelle ");
-    test_tolerance(-2.0, calc.diviser(6.0, -3.0), "Division avec un nombre négatif");
+    Calculator calc;
+    test_tolerance(2.5, calc.Division(5.0, 2.0), "Division reelle ");
+    test_tolerance(-2.0, calc.Division(6.0, -3.0), "Division avec un nombre négatif");
 }
