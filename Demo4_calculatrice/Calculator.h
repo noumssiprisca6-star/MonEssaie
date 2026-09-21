@@ -15,6 +15,11 @@ class Calculator{
     T Soustraction(T a, T b) {
         return a - b;
     }
+
+    template <typename T>
+    T Multiplication(T a, T b) {
+        return a * b;
+    }
 };
 
 #endif
