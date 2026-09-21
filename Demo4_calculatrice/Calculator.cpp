@@ -15,7 +15,7 @@ int Calculator ::Addition(int a , int b){
         std::cout<<"erreur division par zero "<<std::endl;
         return 0;
 
-    }else{
-        return x /y ;
     }
+        return x /y ;
+    
  }
